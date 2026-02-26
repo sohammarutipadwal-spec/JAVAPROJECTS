@@ -1,0 +1,40 @@
+Variable Declaration Syntax
+dataType variableName = value;
+
+ Example:
+int age = 25;
+String name = "John";
+double salary = 45000.50
+
+Types of Variables in Java
+1. Local Variables
+   Declared inside a method, constructor, or block.
+   Must be initialized before use.
+   Only accessible within that method/block.
+Syntax
+     void display() {
+    int number = 10;  // Local variable
+     }
+2. Instance Variables (Non-static Fields)
+  Declared inside a class but outside methods.
+  Each object has its own copy.
+  Stored in heap memory.
+
+class Student {
+    String name;   // Instance variable
+    int age;
+}
+3. Static Variables (Class Variables)
+   Declared with static keyword.
+   Shared among all objects of the class.
+
+class Student {
+    static String schoolName = "ABC School";
+     }
+
+
+
+
+
+
+  
