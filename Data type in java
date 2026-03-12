@@ -7,14 +7,14 @@ Two Main Types of Data Types in Java
    Primitive data types store simple values.
    java has 8 primitive types:
 
-Data Type     	Description           Example
-byte        Small whole number	      byte b = 10;
-short	      Medium whole number	      short s = 100;
-int	        Whole number	            int num = 500;
-long	      Large whole number        long big = 100000L;
-float      	Decimal number            float f = 5.5f; 
+Data Type     	Description              Example
+byte     =   Small whole number	    =  byte b = 10;
+short	   =   Medium whole number	    =  short s = 100;
+int	   =    Whole number	          = int num = 500;
+long	   =   Large whole number      =  long big = 100000L;
+float    =  	Decimal number        =   float f = 5.5f; 
             (less precision)	       
-double	     Decimal number           double d = 10.99; 
+double	=    Decimal number         =  double d = 10.99; 
             (more precision)	       
 
 
@@ -31,11 +31,11 @@ Example:
 String name = "John";
 int[] numbers = {1, 2, 3};
  Difference Between Primitive and Non-Primitive
-    Primitive	            Non-Primitive
-Stores actual value	    Stores reference (address)
-Fixed size	            Size depends on object
-Cannot call methods	    Can call methods
-Example: int, double   	Example: String, Array
+    Primitive	       |     Non-Primitive
+Stores actual value	 \   Stores reference (address)
+Fixed size	          \   Size depends on object
+Cannot call methods	 \   Can call methods
+Example: int, double  \   Example: String, Array
 
 Example Program
 class Main {
