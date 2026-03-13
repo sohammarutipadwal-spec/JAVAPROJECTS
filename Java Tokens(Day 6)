@@ -1,0 +1,58 @@
+Definition
+    In Java, a token is the smallest individual unit of a program that the compiler can understand. When you write Java code,
+    the compiler breaks it into tokens during the lexical analysis phase.
+
+This line contains the following tokens:
+
+Code Part  |     	Token Type
+int        =      	Keyword
+a	         =       Identifier
+=          =      	Operator
+10         =      	Literal
+;	         =       Separator
+
+Types of Java Tokens
+1. Keywords
+       Keywords are reserved words that have special meaning in Java and cannot be used as variable names.
+Examples:
+         int, class, public, static, void, if, else, return.
+
+2. Identifiers
+       Identifiers are names given to variables, classes, methods, or objects.
+Example:
+        int marks;
+        Here marks is an identifier.
+
+3. Literals
+        Literals are fixed values used directly in the program.
+Example:
+        int a = 50;
+        Here 50 is a literal.
+ Types of literals:
+         Integer → 10
+         Floating → 3.14
+         Character → 'A'
+         String → "Hello"
+         Boolean → true, false
+
+4. Operators
+        Operators perform operations on variables and values.
+Examples:
+          +  -  *  /  %
+          =  ==  !=
+          >  <  >=  <=
+          &&  ||
+Example:
+       int sum = a + b;
+       Here + is an operator.
+
+5. Separators (Delimiters)
+         Separators are used to separate parts of the program.
+Examples:
+         ( ) { } [ ] ; , .
+
+Example:
+        System.out.println("Hello");
+        Separators used here: ( ) . ;
+
+
